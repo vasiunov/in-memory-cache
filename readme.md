@@ -10,18 +10,18 @@ import (
 
 func main() {
 
-	someCache := NewCache()
-	fmt.Println(someCache)
+	someCache := inMemoryCache.NewCache()
+	fmt.Println(someCache) // {map[]}
 
 	someCache.Set("userID", 59)
-	fmt.Println(someCache)
+	fmt.Println(someCache) // {map[userID:59]}
 
 	userId := someCache.Get("userID")
-	fmt.Println(userId)
+	fmt.Println(userId) // 59
 
 	someCache.Delete("userID")
 	userId = someCache.Get("userID")
 
-	fmt.Println(userId)
+	fmt.Println(userId) // <nil>
 }
 ```
