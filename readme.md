@@ -1,3 +1,5 @@
+Description is available here - https://pkg.go.dev/github.com/vasiunov/in-memory-cache
+
 ## Example
 
 ```go
@@ -10,7 +12,7 @@ import (
 
 func main() {
 
-	someCache := inMemoryCache.NewCache()
+	someCache := cache.NewCache()
 	fmt.Println(someCache) // {map[]}
 
 	someCache.Set("userID", 59)

@@ -1,5 +1,5 @@
 // Package inMemoryCache is used for caching data.
-package inMemoryCache
+package cache
 
 // Cache type contains the field map[string]interface{}.
 type Cache struct {
