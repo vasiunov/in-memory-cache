@@ -10,7 +10,7 @@ import (
 
 func main() {
 
-	someCache := inMemoryCache.NewCache()
+	someCache := cache.NewCache()
 	fmt.Println(someCache) // {map[]}
 
 	someCache.Set("userID", 59)
