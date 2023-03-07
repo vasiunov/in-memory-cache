@@ -1,3 +1,4 @@
+Package cache is used for caching data.
 Description is available here - https://pkg.go.dev/github.com/vasiunov/in-memory-cache
 
 ## Example

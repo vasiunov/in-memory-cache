@@ -1,4 +1,3 @@
-// Package inMemoryCache is used for caching data.
 package cache
 
 // Cache type contains the field map[string]interface{}.
