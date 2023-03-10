@@ -1,5 +1,7 @@
 Package cache is used for caching data. Each key-value pair expires in 5 sec.
+
 Description is available here - https://pkg.go.dev/github.com/vasiunov/in-memory-cache
+
 Play code - https://go.dev/play/p/dBzJ5Uv-Kjc
 
 ## Example
